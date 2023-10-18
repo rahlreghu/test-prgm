@@ -1,0 +1,42 @@
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.content{
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+.hover{
+    padding: 20px 25px;
+    background-color: purple;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+}
+.hover:hover{
+    background-color: olive;
+}
+.content ul{
+    list-style: none;
+    overflow: hidden;
+    background-color: navajowhite;
+    box-shadow: 2px 2px 3px;
+}
+.content li{
+    padding: 5px;
+    border-bottom: .5px solid rgb(88, 88, 125);
+}
+.content a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: light;
+    color: navy;
+}
