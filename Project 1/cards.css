@@ -1,0 +1,19 @@
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;          /* responsive */
+    justify-content: flex-end;
+    flex-wrap: wrap;       /* responsive */
+    align-items: center;
+}
+.card{
+    width: 100px;
+    height: 200px;
+    border: 1px dotted sienna;
+    border-radius: 5px;
+    box-shadow: 3px 4px 2px lightcoral, 2px 4px 3px lightblue;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}

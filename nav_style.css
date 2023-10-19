@@ -17,7 +17,7 @@ body{
 }
 .item-log a{
     color: orangered;
-    font-family: ;
+    /* font-family: 'Times New Roman', Times, serif; */
     text-decoration: none;
     font-size: larger;
     font-weight: 600;
